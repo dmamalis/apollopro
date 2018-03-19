@@ -2,15 +2,15 @@
 An unofficial and untested simple nodejs service to read out Apollo Pro Indoor Rower. Use at your own risk!
 
 ## Prerequisites
-Install `nodejs` and `npm` on your machine.
-Have a local or remote InfluxDB running.
+- Install `nodejs` and `npm` on your machine.
+- Have a local or remote InfluxDB running.
+- Init a database on your InfluxDB
 
 ##### Optional
 Have a local or remote Grafana account to visualize your data.
 
 ## Info
-The serial port is set to 9600-N-1
-This version reads the 29B data stream and posts the data to an InfluxDB. Make sure you provide a URL of your InfluxDB.
+The serial port is set to 9600-N-1. This app reads the 29B data stream and posts the data to an InfluxDB. Make sure you provide a URL of your InfluxDB and the name your your database.
 
 ## Communication
 Without really diving into it I found out that in Windows the port is initially congifured at 1200-n-1 7 bits word. Then the windows app sets it to 9600-N-1 and the communication starts. However, when in Linux and probably Mac the device pops up as ttyUSB and you can directly set it to 9600-N-1. Downlink commands end with`\n` while uplink responses end with `\r\n`
