@@ -70,4 +70,4 @@ The rower starts spawning data in the following format.
 | Level : X  	|  Level 	|   
 
 ## To do
-The plan is to wrap this up to an electron app for storing and viewing data localy. If you feel like contributing please check 
+The plan is to wrap this up to an electron app for storing and viewing data localy. If you feel like contributing please check https://github.com/dmamalis/apollopro_desktop 
