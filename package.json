@@ -1,0 +1,22 @@
+{
+  "name": "fdfreader",
+  "version": "0.0.1",
+  "description": "An app to readout FDF Apollo Pro Indoors rower and send the data to an InfluxDB",
+  "main": "readout.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rowing",
+    "serial",
+    "fdf",
+    "influx",
+    "grafana"
+  ],
+  "author": "Dimitris Mamalis",
+  "license": "ISC",
+  "dependencies": {
+    "influxdb-nodejs": "^2.7.6",
+    "serialport": "^6.1.1"
+  }
+}
