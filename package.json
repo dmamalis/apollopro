@@ -4,7 +4,8 @@
   "description": "An app to readout FDF Apollo Pro Indoors rower and send the data to an InfluxDB",
   "main": "readout.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node readout.js"
   },
   "keywords": [
     "rowing",
