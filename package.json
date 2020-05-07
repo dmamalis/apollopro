@@ -18,6 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "influxdb-nodejs": "^2.7.6",
-    "serialport": "^6.1.1"
+    "serialport": "^6.1.1",
+    "sleep": "^6.1.0"
   }
 }
